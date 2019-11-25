@@ -1,0 +1,7 @@
+domain: blackhole.com
+repo: github.com/DanielXLee/cronjob
+resources:
+- group: batch
+  kind: CronJob
+  version: v1
+version: "2"
